@@ -18,7 +18,6 @@ var app = new Vue (
                 .then(response => {
                     this.emailRandom = response.data.response
                     this.emailList.push(this.emailRandom);
-                    alert(this.emailList);
                 });
             }
         }
