@@ -17,7 +17,7 @@
     <div id="root">
         <!-- Email List -->
         <ul class="email-list">
-            <li>{{ message }}</li>
+            <li v-for="email in emailList">{{ email }}</li>
         </ul>
     </div>
     <!-------------- end - Vue.js Container --------------->
